@@ -1,0 +1,5 @@
+# Оптимизация my_eval с помощью .eval()
+formula = input("Введите выражение: ")
+formula.replace(" ", "")
+result = eval(formula)
+print("Результат: {}".format(result))
